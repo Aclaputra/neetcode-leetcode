@@ -1,6 +1,6 @@
-# contains duplicate
+# contains duplicate solutions
 
-pseudocode counter map solution
+pseudocode counter map
 
 ```bash
 function containsDuplicate(nums: array of integers) -> boolean:
@@ -17,4 +17,10 @@ function containsDuplicate(nums: array of integers) -> boolean:
 function main():
     Call the containsDuplicate function with an example array [1, 2, 3, 4, 1].
     Print the result indicating whether there are duplicate numbers.
+```
+
+seen map
+
+```
+
 ```
