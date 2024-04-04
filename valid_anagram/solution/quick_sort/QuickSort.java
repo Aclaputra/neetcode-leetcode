@@ -39,8 +39,8 @@ public class QuickSort {
         char sArray[] = s.toCharArray();
         char tArray[] = t.toCharArray();
 
-        Arrays.sort(sArray);
-        Arrays.sort(tArray);
+        quickSort(sArray, 0, sArray.length-1);
+        quickSort(tArray, 0, tArray.length-1);
 
         return new String(sArray).equals(new String(tArray));
     }
